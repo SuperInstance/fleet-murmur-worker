@@ -12,11 +12,11 @@ The worker runs a set of parallel "murmur" strategies — each one is a thinking
 
 These are defined in `src/strategies/`:
 
-1. **Pattern detection** — Finds recurring signal in fleet operations
-2. **Anomaly spotting** — Flags deviations from expected behavior
-3. **Cross-reference** — Correlates data across multiple fleet sources
-4. **Trend projection** — Extrapolates current state into near-term forecasts
-5. **Constraint inference** — Reverse-engineers hidden constraints from observed behavior
+1. **Connect** — Finds links between fleet data points
+2. **Contradict** — Challenges assumptions by looking for opposing evidence
+3. **Explore** — Investigates unfamiliar territory in the data
+4. **Question** — Probes gaps and inconsistencies in fleet knowledge
+5. **Synthesize** — Combines insights from other strategies into coherent findings
 
 ## How to Run
 
